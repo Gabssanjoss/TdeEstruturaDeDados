@@ -55,6 +55,8 @@
 //Console.WriteLine(string.Join(", ", numerosOrdenados));
 //Console.WriteLine($"Primeiro Número: {primeiroNumero}");
 
+
+//EXERCICIO 1
 List<Aluno> alunosLista = new List<Aluno>
 {
     new Aluno {Nome = "Gabss", Nota = 10},
@@ -73,6 +75,8 @@ foreach (var nome in aprovados)
     Console.WriteLine(nome);
 }
 
+
+//EXERCICIO 2
 Queue<string> filaDeAtendimento = new Queue<string>();
 
         filaDeAtendimento.Enqueue("Lucas");
